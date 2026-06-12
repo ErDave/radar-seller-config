@@ -1,7 +1,7 @@
 {
   "_comment": "Copia local de fallback. La versión canónica vivirá en GitHub Pages (RS-002). Verificado contra mercadolibre.cl el 2026-06-11.",
-  "version": 2,
-  "updated": "2026-06-11",
+  "version": 3,
+  "updated": "2026-06-12",
   "sites": {
     "MLC": {
       "domain": "mercadolibre.cl",
@@ -16,6 +16,7 @@
         "installments": ".poly-price__installments",
         "seller": ".poly-component__seller",
         "rating": ".poly-component__review-compacted",
+        "condition": ".poly-component__item-condition",
         "shipping": ".poly-component__shipping-v2",
         "is_ad": ".poly-component__ads-promotions",
         "is_buy_box": ".poly-component__buy-box",
