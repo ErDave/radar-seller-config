@@ -1,0 +1,25 @@
+{
+  "_comment": "Tarifas de venta por país. Fuentes en 'sources'. Los porcentajes exactos varían por categoría — el usuario ajusta el % desde la UI (su % exacto está en su panel de vendedor o el simulador oficial de ML).",
+  "version": 2,
+  "updated": "2026-06-12",
+  "MLC": {
+    "currency": "CLP",
+    "listing_types": {
+      "clasica": { "label": "Clásica", "pct_min": 8, "pct_max": 17, "pct_default": 13, "cuotas": "hasta 6 sin interés" },
+      "premium": { "label": "Premium", "pct_min": 11, "pct_max": 21, "pct_default": 16, "cuotas": "hasta 12 sin interés" }
+    },
+    "fixed_fee_tiers": [
+      { "max_price": 9990, "fee": 700 },
+      { "max_price": 19990, "fee": 1000 },
+      { "max_price": null, "fee": 0 }
+    ],
+    "fixed_fee_verified": false,
+    "fixed_fee_note": "Cargo fijo según fuentes de industria 2026 — no publicado en la ayuda oficial de ML Chile. Verificable en el simulador oficial.",
+    "free_shipping_threshold": 19990,
+    "min_listing_price": 1100,
+    "sources": [
+      "mercadolibre.cl/ayuda/Costos-de-vender-un-producto_870 (consultado 2026-06-12: Clásica 8-17%, Premium 11-21%, envío gratis desde $19.990, precio mínimo $1.100)",
+      "wivoanalytics.com + spomsolutions.com (cargo fijo $700 hasta $9.990 / $1.000 hasta $19.990)"
+    ]
+  }
+}

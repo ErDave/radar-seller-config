@@ -1,0 +1,39 @@
+{
+  "_comment": "Copia local de fallback. La versión canónica vivirá en GitHub Pages (RS-002). Verificado contra mercadolibre.cl el 2026-06-11.",
+  "version": 2,
+  "updated": "2026-06-11",
+  "sites": {
+    "MLC": {
+      "domain": "mercadolibre.cl",
+      "search_results": {
+        "page_marker": ".ui-search-search-result, .poly-card",
+        "total_results": ".ui-search-search-result__quantity-results",
+        "result_item": ".poly-card",
+        "title": ".poly-component__title",
+        "price_current": ".poly-price__current .andes-money-amount__fraction",
+        "price_previous": ".andes-money-amount--previous .andes-money-amount__fraction",
+        "discount": ".andes-money-amount__discount, .poly-price__disc_label",
+        "installments": ".poly-price__installments",
+        "seller": ".poly-component__seller",
+        "rating": ".poly-component__review-compacted",
+        "shipping": ".poly-component__shipping-v2",
+        "is_ad": ".poly-component__ads-promotions",
+        "is_buy_box": ".poly-component__buy-box",
+        "svg_full_aria": "Enviado por FULL",
+        "svg_official_aria": "Tienda oficial"
+      },
+      "product_page": {
+        "page_marker": ".ui-pdp-title",
+        "title": ".ui-pdp-title",
+        "subtitle": ".ui-pdp-subtitle",
+        "price": ".ui-pdp-price__second-line .andes-money-amount__fraction",
+        "gallery_items": ".ui-pdp-gallery__column figure, .ui-pdp-thumbnail",
+        "attr_rows": ".andes-table__row",
+        "highlighted_specs": ".ui-vpp-highlighted-specs__key-value",
+        "seller_name": ".ui-pdp-seller__header__title",
+        "description": ".ui-pdp-description__content",
+        "catalog_path_marker": "/p/MLC"
+      }
+    }
+  }
+}
